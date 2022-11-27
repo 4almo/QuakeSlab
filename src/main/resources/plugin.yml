@@ -1,0 +1,12 @@
+name: QuakeSlab
+version: '${project.version}'
+main: fr.almo.quakeslab.QuakeSlab
+api-version: 1.19
+authors: [ almo ]
+description: Plugin reprenant le fameux concept du jeu Quake avec les ajouts de mon ami SlabWex
+commands:
+  quakeslabcreate:
+    description: Permet de créer une partie de QuakeSlab.
+    aliases: qsc
+  quakeslabjoin:
+    description: Permet de rejoindre une partie de QuakeSlab.
